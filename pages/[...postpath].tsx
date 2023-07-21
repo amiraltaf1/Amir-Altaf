@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					'https://apk057.online/' + encodeURI(path as string)
+					`https://apk057.online/` + encodeURI(path as string)
 				}`,
 			},
 		};
